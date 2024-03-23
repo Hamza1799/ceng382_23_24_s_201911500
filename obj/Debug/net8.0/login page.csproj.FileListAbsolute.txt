@@ -1,0 +1,30 @@
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\appsettings.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.staticwebassets.runtime.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.exe
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.deps.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.runtimeconfig.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.dll
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\bin\Debug\net8.0\login page.pdb
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.AssemblyInfoInputs.cache
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.AssemblyInfo.cs
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.csproj.CoreCompileInputs.cache
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.RazorAssemblyInfo.cache
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.RazorAssemblyInfo.cs
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets\msbuild.login page.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets\msbuild.build.login page.props
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.login page.props
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.login page.props
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\scopedcss\bundle\login page.styles.css
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\scopedcss\projectbundle\login page.bundle.scp.css
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.dll
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\refint\login page.dll
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.pdb
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\login page.genruntimeconfig.cache
+c:\Users\hamza\OneDrive\Desktop\New folder\login page\obj\Debug\net8.0\ref\login page.dll
