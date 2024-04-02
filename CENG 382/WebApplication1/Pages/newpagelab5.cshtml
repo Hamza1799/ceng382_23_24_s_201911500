@@ -2,11 +2,13 @@
 @model MyApp.Namespace.newpagelab5Model
 @{
 }
-@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+<button id="toggleButton">Toggle Elements</button>
+<div id="elementsToToggle">
+    <!-- Elements to hide/show -->
+    <p>Element 1</p>
+    <p>Element 2</p>
+</div>
+<script src="buttonActions.js"></script>
 
 <main class="form-signin w-100 m-auto">
   <form>
