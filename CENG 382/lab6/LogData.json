@@ -1,0 +1,11 @@
+[
+    {
+        "Action": "Reservation Added",
+        "Timestamp": "2024-04-20T10:05:00"
+    },
+    {
+        "Action": "Reservation Deleted",
+        "Timestamp": "2024-04-21T15:30:00"
+    }
+]
+

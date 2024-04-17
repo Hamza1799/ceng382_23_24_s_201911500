@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj": {}
+    "c:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj": {
+    "c:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj",
+        "projectUniqueName": "c:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj",
         "projectName": "lab6",
-        "projectPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj",
+        "projectPath": "c:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\lab6.csproj",
         "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\obj\\",
+        "outputPath": "c:\\Users\\hamza\\OneDrive\\Desktop\\CENG 382\\lab6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",

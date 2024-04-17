@@ -2,50 +2,91 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
+
+public record Room(string RoomNumber, string RoomType, double Price);
+
+public class Reservation
+{
+    public Room Room { get; }
+    public DateTime DateTime { get; }
+    public string ReservedBy { get; }
+
+    public Reservation(Room room, DateTime dateTime, string reservedBy)
+    {
+        Room = room;
+        DateTime = dateTime;
+        ReservedBy = reservedBy;
+    }
+}
+
+public class ReservationHandler
+{
+    private Reservation[,] reservations;
+
+    public ReservationHandler()
+    {
+    }
+
+    public ReservationHandler(int numRows, int numCols)
+    {
+        reservations = new Reservation[numRows, numCols];
+    }
+
+    public void AddReservation(Reservation reservation, int row, int col)
+    {
+        reservations[row, col] = reservation;
+    }
+
+    public Reservation GetReservation(int row, int col)
+    {
+        return reservations[row, col];
+    }
+}
+
 public class RoomData
 {
     [JsonPropertyName("Room")]
-    public Room[] Rooms{get; set;}
+    public Room[] Rooms { get; set; }
 }
-public class Room
+
+public class RoomInfo
 {
     [JsonPropertyName("roomId")]
-    public string roomId {get; set;}
+    public string RoomId { get; set; }
 
     [JsonPropertyName("roomName")]
-    public string roomName {get; set;}
+    public string RoomName { get; set; }
 
     [JsonPropertyName("capacity")]
-    public int capacity{get; set;}
+    public int Capacity { get; set; }
 }
 
 class Program
 {
-    static void Main(String[]args)
+    static void Main(string[] args)
     {
-        //define file path
+        // Define file path
         string filePath = "Data.json";
 
-        //Read from json
-        // 1 -> json to text // todo try catch 
+        // Read from JSON
         string jsonString = File.ReadAllText(filePath);
-        // 2 -> decode text into meaningful classes
-        var roomData = JsonSerializer.Deserialize<RoomData>(
-                                jsonString, 
-                                new JsonSerializerOptions()
-        {
-                NumberHandling = JsonNumberHandling.AllowReadingFromString | 
-                JsonNumberHandling.WriteAsString
-        });
 
-        //print
-        if(roomData?.Rooms != null)
+        // Decode JSON into meaningful classes
+        var roomData = JsonSerializer.Deserialize<RoomData>(
+            jsonString,
+            new JsonSerializerOptions()
+            {
+                NumberHandling = JsonNumberHandling.AllowReadingFromString |
+                                  JsonNumberHandling.WriteAsString
+            });
+
+        // Print
+        if (roomData?.Rooms != null)
         {
             foreach (var room in roomData.Rooms)
             {
-                Console.WriteLine($"Room ID : {room.roomId} RoomName : {room.roomName} Capacity : {room.capacity}");
+                Console.WriteLine($"Room ID : {room.RoomId} Room Name : {room.RoomName} Capacity : {room.Capacity}");
             }
         }
-
     }
 }
