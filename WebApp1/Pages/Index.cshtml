@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">WELCOME</h1>
+
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<!--Login link with login ID -->
+<a id="loginLink" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login" style="display:none;">Login</a>
+
+<!-- JavaScript to simulate click event -->
+<script>
+    // auto click on login 
+    window.onload = function() {
+        var loginLink = document.getElementById('loginLink');
+        if (loginLink) {
+            loginLink.click();
+        }
+    };
+</script>
