@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\hamza\\OneDrive\\Desktop\\New folder\\login page\\login page.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\382\\ceng382_23_24_s_201911500\\login page.csproj": {}
   },
   "projects": {
-    "c:\\Users\\hamza\\OneDrive\\Desktop\\New folder\\login page\\login page.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\382\\ceng382_23_24_s_201911500\\login page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\hamza\\OneDrive\\Desktop\\New folder\\login page\\login page.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\382\\ceng382_23_24_s_201911500\\login page.csproj",
         "projectName": "login page",
-        "projectPath": "c:\\Users\\hamza\\OneDrive\\Desktop\\New folder\\login page\\login page.csproj",
-        "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\hamza\\OneDrive\\Desktop\\New folder\\login page\\obj\\",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\382\\ceng382_23_24_s_201911500\\login page.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\382\\ceng382_23_24_s_201911500\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
